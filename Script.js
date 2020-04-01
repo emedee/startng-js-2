@@ -17,7 +17,7 @@ let data = [
     },
 ]
 
-let interestCalculator = (data) => {
+let interestCalculator = () => {
     let rate = undefined
     let interestData = []
     for(let i = 0; i < data.length; i ++){
